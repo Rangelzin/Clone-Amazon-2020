@@ -4,7 +4,7 @@ Este projeto é um clone da interface da Amazon de 2020, desenvolvido apenas com
 # 🛠️ Como rodar o projeto localmente
 Nenhuma configuração extra é necessária! Basta seguir os passos abaixo:
 
-ou abra <a target="_blank" href="https://rangelzin.github.io/Clone-Amazon-2020/src/indexAMAZON.html target">Aqui</a>.
+ou abra <a target="_blank" href="https://rangelzin.github.io/Clone-Amazon-2020/src/indexAMAZON.html">Aqui</a>.
 
 Baixe ou clone o repositório.
 Abra o arquivo index.html no navegador de sua escolha.
