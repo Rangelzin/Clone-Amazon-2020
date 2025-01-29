@@ -6,8 +6,8 @@
     /* 7 = 7.5rem */
     /* 75px = 75px */
     /* 210px = 210px */
-
-
+    
+    
     --color-darkblue-500: #485769;
     --color-darkblue-600: #37475a;
     --color-darkblue-700: #232f3e;
@@ -16,9 +16,32 @@
     
     --color-gold-100: #febd69;
     --color-gold-200: #faa63a;
-
-    --color-orage-650: #e47911;
+    
+    --color-orange-650: #e47911;
     
     --color-yellow-350: #f0c14b;
     
+}
+
+@layer utilities{
+
+    .address-container{
+        @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0 hover:border-white;
+    }
+
+    .item-nav-mid{
+        @apply mr-4 border border-transparent rounded-sm px-2 py-1 hover:border-white;
+    }
+    
+    .item-nav-inf{
+        @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+    }
+
+    .item-title-container{
+        @apply text-blue-600 underline hover:text-orange-650 px-1 border-r border-black;
+    }
+
+    .btn-amazon-prime{
+        @apply text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-10 h-12 md:h-8 block md:flex items-center w-full md:w-auto text-center;
+    }
 }
